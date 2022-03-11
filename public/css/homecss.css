@@ -1,0 +1,38 @@
+
+table{
+    width: 1125px;
+    margin-top: 200px;
+    margin-left: 200px;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 20px #7375791a;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+table tr:nth-child(2n){
+    background-color: #f2f2f2;
+}
+
+
+table tr{
+    border-radius: 20px 0 20px 0;
+}
+
+table td,table th{
+    height: 60px;
+    border: rgba(112, 112, 112,0.14) solid 1px;
+}
+
+table th{
+    font-size: 1.2rem;
+    font-family: Poppins;
+}
+
+table td{
+    font-family:Poppins;
+    font-size: 1rem;
+}
+
+table td{
+    text-align: center;
+}
